@@ -40,6 +40,7 @@ h1, h2, h3, h4, h5, h6{
 
 p{
     padding-bottom:1.87rem;
+    line-height:1.8;
 }
 
 .btn{
@@ -76,6 +77,11 @@ nav{
     align-items: center;
     padding-bottom:4.75rem;
 }
+
+.nav-btn:hover{
+    background-color:var(--dark-blue);
+    color:var(--white);
+}
 /*  */
 
 
@@ -93,6 +99,9 @@ nav{
     height:auto;
 }
 
+.sct-1 pattern{
+    
+}
 
 /* HEADING AND PARAGRAPH */
 .sct-1 .content {
@@ -141,6 +150,7 @@ nav{
     width:255px;
     height:480px;
 }
+
 .sct-2-image-2 img{
     width:445px;
     height:480px;
@@ -163,16 +173,17 @@ nav{
 
 }
 
-.info{
+.sct-3 .info{
     width:255px;
     height:325px;
 }
 
-
-.info-icon{
-    width:65px;
-    height:65px;
+.info h2{
+    padding-right:4rem;
 }
+
+
+
 
 /* START OF FOOTER */
 
@@ -187,3 +198,17 @@ footer p{
 footer p span{
     font-weight:var(--medium);
 }
+
+
+/* BREAKPOINT */
+
+@media screen and (max-width:1029px){
+    .container{
+        max-width:1000px;
+    }
+    .sct-2{
+        grid-template-columns:25% 70%;
+        gap:5rem;
+    }
+}
+
