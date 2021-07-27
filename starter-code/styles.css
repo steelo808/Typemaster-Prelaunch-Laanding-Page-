@@ -99,9 +99,6 @@ nav{
     height:auto;
 }
 
-.sct-1 pattern{
-    
-}
 
 /* HEADING AND PARAGRAPH */
 .sct-1 .content {
@@ -170,12 +167,15 @@ nav{
     grid-template-columns:repeat(4, 1fr);
     gap:2rem;
     padding-bottom:8.1rem;
-
 }
 
 .sct-3 .info{
     width:255px;
     height:325px;
+}
+
+.sct-3 img{
+    background:#F16718;
 }
 
 .info h2{
